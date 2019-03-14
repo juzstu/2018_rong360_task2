@@ -23,7 +23,7 @@ origin_train = pd.read_csv(path + '/sample_train.txt', encoding='utf8', sep='\t'
 origin_val = pd.read_csv(path + '/valid_id.txt', encoding='utf8')
 origin_test = pd.read_csv(path + '/test_id.txt', encoding='utf8')
 app_path = path + '/dat_app'
-edge_path = path + './dat_edge'
+edge_path = path + '/dat_edge'
 
 if not os.path.exists(path + '/mid_data'):
     os.mkdir(path + '/mid_data')
